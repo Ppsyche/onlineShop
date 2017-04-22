@@ -1,0 +1,212 @@
+.zhan{
+	height: 100px;
+}
+.clear{
+	clear: both;
+}
+/*title 开始*/
+#title{
+    color: #575655;
+}
+#title .glyphicon{
+    font-size: 24px;
+	font-weight: normal;
+}
+#title .size-big,#title .size-small{
+	color: #7c7c7c;
+}
+#title .size-big{
+    font-size: 24px;
+    font-weight: 400;
+}
+#title .size-small{
+	font-size: 6px;
+    font-weight: 300;
+	color: #afafaf;
+    font-style: italic;
+	vertical-align: middle;
+}
+/*title 结束*/
+/*themes 开始*/
+#themes{
+	height: 30px;
+	width: 928px;
+	margin-top: 15px; 
+	padding: 15px;
+	border: 1px solid #efefef;
+	font-size: 21px;
+	font-weight: 200;
+    background: #f4f4f4;
+    text-align: center;    
+}
+/*themes 结束*/
+/*products-list 开始*/
+#products-list{
+	margin-top: 15px;
+}
+#products-list .products{
+	width: 300px;
+	height: 343px;
+    padding: 4px;
+    border: 1px solid #ddd;    
+}
+#products-list .products:nth-child(3n+1){
+	margin-right: 15px;
+	float: left;
+}
+#products-list .products:nth-child(3n+2){
+	margin-right: 15px;
+	float: left;
+}
+#products-list .products:nth-child(3n){
+	float: right;
+}
+#products-list .products-img{
+	width: 300px;
+	height: 200px;
+	background: #f4f4f4 url(../img/8.jpg) 300px 200px;
+}
+#products-list .products-text{
+    color: #7c7c7c;
+    padding: 9px;
+}
+#products-list .user-name{
+	font-weight: 400;
+    color: #4d4d4d;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#products-list .icon{
+    font-size: 30px;
+}
+#products-list .selected{
+    color: #e5412d;
+}
+/*products-list 结束*/
+
+/*hr 开始*/
+.hr{
+	height: 2px;
+	background: #f4f4f4;
+	margin: 20px auto;
+	position: relative;	
+	text-align: center;
+}
+.hr .glyphicon{
+	font-size: 40px;
+	position: absolute;
+	top: 50%;
+	left: 450px;
+	margin-top: -18px;
+	padding: 0 10px;
+	background: #fff;
+}
+/*hr 结束*/
+/*guide-list 开始*/
+#guide-list{
+	margin-top: 30px;
+}
+#guide-list .guide-border{
+	width: 442px;
+/*	height: 252px;*/
+    border: 1px solid #efefef;
+    padding: 15px;
+    
+}
+#guide-list .guide-border:nth-child(2n+1)
+{
+	float: left;
+}
+#guide-list .guide-border:nth-child(2n)
+{
+	float: right;
+}
+#guide-list .guide{
+	padding: 10px;
+}
+#guide-list .icon{
+	width: 60px;
+	height: 60px;
+    color: #e2e2e2;
+    font-size: 50px;
+    float:left;
+    margin:10px;
+}
+#guide-list h4{
+	font-size: 17px;
+	margin: 0 0 5px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+#guide-list a{
+	color: #e5412d;
+}
+#guide-list a:hover{
+	color: #1d1d1d;
+}
+/*guide-list 结束*/
+
+/*news 开始*/
+#news{
+	margin-bottom: 50px;
+}
+#news .carousel{
+	float: left;
+	margin-right: 15px;
+}
+#news .one-news{
+	width: 440px;
+	height: 65px;
+	float: left;
+    border: 1px solid #efefef;
+    background: #f4f4f4;
+    padding: 15px;
+    color: #333333;
+}
+#news h4{
+	font-weight: 400;
+    color: #4d4d4d;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#news .one-news .glyphicon{
+    color: #e2e2e2;
+    font-size: 32px;
+    float: left;
+    margin-right: 17px;
+}
+#news .feed{
+	color: #7c7c7c;
+    font-size: 14px;
+	float: left;
+    font-weight: 400;
+    line-height: 50px;
+}
+#news .feed .icon{
+    color: #7c7c7c;
+    font-size: 20px;
+	margin-right: 5px;
+}
+#news .feed-content{
+	width: 440px;
+	height: 40px;
+	padding: 15px;
+	float: left;
+	border: 1px solid #efefef;
+	background: #f4f4f4;
+    line-height: 20px;
+    color: #333333;
+}
+#news .feed-content span{
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ffffff;
+    background: #333333;
+    border-radius: 3px;
+}
+
+/*news 结束*/
+

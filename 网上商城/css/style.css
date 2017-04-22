@@ -1,0 +1,338 @@
+/*样式重置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+ul, ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+
+/*通用样式 开始*/
+body{
+	font-size: 13px;
+/*	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+    color: #7c7c7c;
+}
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+}
+.arrow{
+	width: 0;
+	height: 0;
+	border: 4px solid transparent;
+	border-top-color: #bdbdbd;
+	display: inline-block;
+}
+.zhan{
+	height: 100px;
+}
+.clear{
+	clear: both;
+}
+/*通用样式 结束*/
+
+/*header 开始*/
+#header{
+	width: 100%;
+	height: 88px;
+	position: fixed;
+	z-index: 1;
+}
+#top-nav{
+	height: 30px;
+	line-height: 30px;
+	background: #f4f4f4;
+	border-bottom: 1px solid #dbdbdb;
+}
+#top-nav .glyphicon-search{
+	text-indent: 15px;
+	color: #dbdbdb;
+	font-size: 15px;
+}
+#top-nav .glyphicon-search:hover{
+	color: #f00;
+	cursor: pointer;/*鼠标变手形*/
+}
+#search-box{
+	width: 48px;
+	border-right: 1px solid #bdbdbd;
+	float: left; 
+}
+#top-menu{
+	height: 30px;
+	float: right;
+}
+#top-menu li{
+	float: left;
+	margin-right: 10px;
+}
+#top-menu .follow-us{
+	color: #dbdbdb;
+}
+#top-menu .follow-us:hover{
+	color: #040404;
+}
+#top-menu .share a{
+	font-size: 17px;
+	color: #dbdbdb;
+}
+#top-menu .share a:hover{
+	color: #f00;
+}
+#top-menu .btn{
+	width: 82px;
+	height: 30px;
+	text-align: center;
+	margin-right: 1px;
+}
+#top-menu .btn:hover{
+	background: #f4f4f4;
+}
+#top-menu .btn:hover a{
+	color: #040404;
+}
+#top-menu .btn:hover .glyphicon{
+	color: #f00;
+}
+#top-menu .btn a{
+	color: #fff;
+}
+#top-menu .login{
+	background: #424242;
+}
+#top-menu .register{
+	background: #e5412d;
+}
+#nav{
+	height: 56px;
+	line-height: 56px;
+	border-bottom: 1px solid #39;
+	background: #393939;
+}
+#nav .logo{
+	color: #e5412d;
+	font-size: 36px;
+	float: left;
+}
+#nav .nav-menu{
+	float: right;
+}
+#nav .nav-menu > li{
+	float: left;
+	padding: 0 10px;
+	position: relative;
+}
+#nav .nav-menu > li:hover .sub-menu{
+	display: block;
+}
+#nav .nav-menu a{
+	font-size: 14px;
+	color: #7c7c7c;
+	font-weight: bold;
+}
+#nav .nav-menu .selected a{
+	color: #fff;
+}
+#nav .sub-menu{
+	width: 150px;
+	position: absolute;
+	top: 56px;
+	border: 1px solid #bdbdbd;
+	border-top: 0;
+	display: none;
+	background-color: #fff;
+}
+#nav .sub-menu li{
+	line-height: 30px;
+	padding: 0 10px;
+}
+#nav .sub-menu a{
+	color: #939494;
+}
+#nav .sub-menu a:hover{
+	color: #000;
+}
+/*header 结束*/
+/*footer 开始*/
+#footer{
+	background: #1f2123;
+	padding: 15px 0 15px 0;
+	font-weight: 600;
+}
+#footer h4{
+	font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 8px;
+}
+#footer .left{
+	float: left;
+	margin-right: 14px;
+	text-align: center;
+}
+#footer .right{
+	float: right;
+	text-align: center;
+}
+#footer ul li{
+	background: #191a1c;
+    margin: 0 0 1px;
+    line-height: 30px;
+    height: 30px;  
+}
+#footer .quick-links li{
+    color: #e5412d; 
+    width: 142px;
+}
+#footer .about{
+	width: 335px;
+}
+#footer .about p{
+    color: #919192;
+	background: #191a1c;
+	padding: 15px;
+	font-weight: 600;
+    line-height: 20px;
+}
+#footer .out-blog li{
+	color: #e5412d; 
+    width: 224px;
+}
+#footer .contact li{
+	text-align: left;
+	color: #919192; 
+    width: 212px;
+    padding-left: 5px;
+}
+#footer .contact span{
+	width: 17px;
+	height: 17px;
+}
+#footer .social{
+	margin-top: 15px;
+	width: 212px;
+}
+#footer .social li{
+	background: #1f2123;
+	display: inline-block;
+	font-size: 24px;
+}
+#footer .social a{
+	font-size: 30px;
+	color: #919192; 
+}
+#footer .social .selected{
+    color: #e5412d;
+}
+.clearfix{
+	clear: both;
+}
+#footer .copyright{
+	color: #fff;
+	margin-top: 15px;
+}
+#footer .copyright a{
+	color: #e5412d;  
+}
+#footer .text-right{
+	float: right;
+}
+/*footer 结束*/
+
+/*side-bar 开始*/
+#side-bar{
+	width: 229px;
+	float: left;
+}
+#side-bar ul{
+	margin-bottom: 15px;
+}
+#side-bar li{
+	height: 39px;
+	padding: 0 10px;
+	background: #f4f4f4;
+    border-bottom: 1px solid #efefef;
+    line-height: 39px;
+}
+#side-bar li a{
+    color: #000000;
+    font-weight: bold;
+}
+#side-bar li span{
+	display: inline-block;
+    padding: 2px 10px;
+    margin: 10px 0;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ffffff;
+    background: #9d9d9d;
+    border-radius: 10px;
+    float: right;
+}
+#side-bar .question{
+    background: #424242;
+    padding: 15px;
+    color: #fff;
+    text-align: center;
+}
+#side-bar .question .glyphicon-question-sign{
+	font-size: 75px;
+}
+#side-bar .question h5{
+	font-size: 17.5px;
+	font-weight: 400;
+	margin: 10px 0 5px;
+}
+#side-bar .question a{
+    background: #e5412d;
+    display: block;
+    padding: 7px 0;
+    color: #fff;
+    margin-top: 10px;
+    font-weight: 600;
+}
+#side-bar .question a .glyphicon{
+	padding-right: 5px;
+}
+#side-bar .important-note{
+	margin:15px 0;
+	font-weight: normal;
+}
+#side-bar .important-note .glyphicon{
+	font-size: 16px;
+	font-weight: normal;
+	margin-right: 5px;
+}
+#side-bar .text{
+	padding: 15px;
+	background: #f4f4f4;		
+}
+#side-bar .labels{
+	padding: 15px;
+	background: #f4f4f4;
+	text-align: center;
+}
+#side-bar .labels span{
+	background: #999;
+	font-size: 11px;
+	color: #fff;
+    padding: 2px 4px;
+    margin-top: 3px;
+    display: inline-block;
+    font-weight: bold;
+    border-radius: 3px;
+}
+/*side-bar 结束*/
+
+
+
+

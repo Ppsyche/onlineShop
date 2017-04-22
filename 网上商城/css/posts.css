@@ -1,0 +1,104 @@
+/*title 开始*/
+#title{
+	font-weight: 400;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+#title .glyphicon{
+	color: #575655;
+	padding-right: 5px;
+}
+/*title 结束*/
+/*main 开始*/
+#main{
+	margin: 15px 0 30px;
+}
+
+/*hr 开始*/
+.hr{
+	height: 2px;
+	background: #f4f4f4;
+	margin: 30px auto;
+	position: relative;	
+	text-align: center;
+}
+.hr .glyphicon{
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	left: 90px;
+	margin-top: -15px;
+	padding: 0 10px;
+	background: #fff;
+}
+/*hr 结束*/
+/*question-list 开始*/
+#question-list{
+	width: 715px;
+	float: right;
+}
+.question-box{
+	border: 1px solid #efefef;
+    padding: 15px;
+    margin: 0 auto 15px;
+}
+.img-box{
+    display: block;
+    padding: 3px;
+    border: 1px solid #efefef;
+    background: #fff;
+}
+.one .img-box,.three .img-box{
+	float: left;
+    margin-right: 15px;
+}
+.two .img-box,.four .img-box{
+	float: right;
+    margin-left: 15px;
+}
+.one .img-box img,.four .img-box img{
+	width: 213px;
+}
+.two .img-box img,.three .img-box img{
+	width: 320px;
+}
+.one .text-box,.four .text-box{
+	width: 430px;
+}
+.two .text-box,.three .text-box{
+	width: 340px;
+}
+.text-box{
+	float: left;
+}
+.text-box h4{
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.text-box a{
+    color: #e5412d;
+}
+.text-box .a-hover:hover{
+	color: #333333;
+}
+.text-box .glyphicon{
+	margin-right: 5px;
+}
+.text-box .glyphicon-calendar,.text-box .glyphicon-comment{
+	margin-left: 5px;
+}
+.text-box .txt{
+	margin: 15px 0 10px 0;
+}
+.text-box .strong{
+	font-weight: 700;
+}
+.four{
+	background: #f4f4f4;
+}
+
+
+/*question-list 结束*/
+/*main 结束*/

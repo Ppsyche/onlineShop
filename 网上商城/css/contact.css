@@ -1,0 +1,106 @@
+#center{
+	margin-bottom: 15px;
+}
+/*map 开始*/
+.map{
+	height: 500px;
+	margin-bottom: 15px;
+}
+/*map 结束*/
+/*title 开始*/
+.title{
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.title .glyphicon{
+    color: #575655;
+    font-size: 27px;
+}
+/*title 结束*/
+/*message 开始*/
+/*.message{
+	margin-bottom: 15px;
+}*/
+.send{
+	float: left;
+	width: 554px;
+}
+.send input{
+	width: 255px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	font-weight: normal;
+}
+.send .name{
+	margin-right: 8px;
+}
+.send .text{
+	width: 540px;
+	height: 100px;
+	padding: 4px 6px;
+	margin-bottom: 10px;
+}
+.send button{
+	padding: 7px;
+    background: #e5412d;
+    border-color: #e5412d;
+    color: #ffffff;
+    border:1px solid #e5412d;
+	cursor: pointer;
+}
+.send button span{
+	color: #ee887b;
+	margin-right: 10px;
+}
+.business{
+	float: right;
+	width: 362px;
+    background: #424242;
+    color: #fff;
+    padding: 15px;
+}
+.business h4{
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.business h5{
+	font-size: 13px;
+}
+.business p{
+	line-height: 20px;
+}
+.business p a{
+	color: #fff;
+}
+.business abbr{
+    cursor: help;
+    border-bottom: 1px dotted #999999;
+}
+/*message 结束*/
+/*important 开始*/
+.important-note{
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.important-note .glyphicon{
+	font-size: 16px;
+	font-weight: normal;
+	margin-right: 5px;
+}
+.important .text{
+	background: #f4f4f4;
+    border: 1px solid #efefef;
+    padding: 15px;
+}
+.important .text a{
+    text-decoration: underline;
+    color: #e5412d;
+}
+.important .text a:hover{
+	text-decoration: none;
+	color: #333333;
+}
+/*important 结束*/

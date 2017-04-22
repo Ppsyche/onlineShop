@@ -1,0 +1,211 @@
+/*top 开始*/
+.title{
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 15px;
+	float: left;
+}
+.title .glyphicon{
+    color: #575655;
+    font-size: 27px;
+}
+.top .selected{
+	float: right;
+	line-height: 32px;
+	font-weight: 600;
+}
+#selected{
+	width: 220px;
+	background: #e7e7e7;
+	padding: 5px;
+}
+#selected option{
+	background: #fff;
+}
+/*top 结束*/
+/*table 开始*/
+.middle{
+    border: 1px solid #efefef;
+    border-spacing: 0;
+    border-top: 0;
+    margin-bottom: 15px;
+}
+.middle .praduct{
+	text-align: left;
+}
+thead th{
+	text-align: left;
+}
+th{
+	padding: 8px 0 8px 2px;
+	border: 1px solid #efefef;
+	border-left: 0;
+	border-top: 0;
+}
+.w31{
+	width: 31px;
+	text-align: center;
+}
+.w39{
+	width: 39px;
+}
+.w521{
+	width: 521px;
+}
+.w67{
+	width: 67px;
+}
+.w97{
+	width: 97px;
+}
+thead{
+	background: #e5412d; 
+	color: #fff;
+	height: 20px;
+	border-color: #e5412d;
+}
+.middle thead th{
+	border-color: #e5412d;
+}
+th .checkbox{
+	width: 15px;
+	height: 15px;
+	border-radius:7px;
+}
+tbody tr:hover{
+	background: #bdbdbd;
+}
+tbody th{
+	font-weight: normal;
+}
+tbody .bgc{
+	background: #fafafa;
+}
+.middle .img-box{
+	display: block;
+    padding: 3px;
+    border: 1px solid #efefef;
+    background: #fff;
+    width: 80px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.middle .img-box img{
+	width: 80px;
+}
+.middle .text-box{
+	float: left;
+}
+.middle .text-box h5{
+    font-weight: 400;
+    color: #4d4d4d;
+    font-size: 14px;
+}
+.middle .text-box a{
+	margin-bottom: 10px;
+	display: block;
+}
+.middle .text-box a p{
+    color: #e5412d;
+    font-weight: normal;
+}
+.middle .text-box a p:hover{
+    color: #4d4d4d;
+}
+.middle .text-box .type{
+	float: left;
+	margin-right: 5px;
+	font-weight: normal;
+}
+.middle .text-box .type .grey{
+	border-radius: 3px;
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    color: #ffffff;
+    background: #999999;
+}
+.middle .text{
+	width: 36px;
+	height: 20px;
+	padding: 4px 6px;
+    border: 1px solid #efefef;
+    color: #A7A7A7;
+}
+/*table 结束*/
+
+/*bottom 开始*/
+.discount{
+	float: left;
+    border: 1px solid #efefef;
+    padding: 15px;
+    position: relative;
+    background: #f4f4f4;
+    margin: 0 0 15px;
+    width: 441px;
+}
+.discount strong{
+	display: block;
+}
+.discount input{
+	display: block;
+	margin: 15px 0;
+    border: 1px solid #efefef;
+    color: #A7A7A7;
+    padding: 4px 6px;
+    height: 20px;
+	width: 428px;
+}
+.discount button{
+	display: block;
+    background: #424242;
+    color: #fff;
+    border: 1px solid #424242;
+    padding: 4px 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.price{
+	font-size: 14px;
+	width: 229px;
+	height: 99px;
+	margin-left: 15px;
+	float: left;
+	text-align: right;
+}
+.price .strong{
+	font-weight: bolder;
+}
+.buy{
+	width: 229px;
+	float: right;
+}
+.buy p{
+    font-size: 15px;
+    color: #222;
+    height: 29px;
+    padding: 0 10px;
+    line-height: 29px;
+    background: #e5e5e5;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.buy button{
+    font-weight: 600;
+    padding: 10px;
+    background: #e5412d;
+    border: 1px solid #e5412d;
+    color: #ffffff;
+    width: 100%;
+    font-size: 17px;
+}
+.buy span{
+	color: rgba(255, 255, 255, 0.4);
+	margin-right: 17px;
+	font-size: 15px;
+}
+/*bottom 结束*/

@@ -1,0 +1,38 @@
+/*轮播图组件 开始*/
+.carousel{
+	width: 472px;
+	height: 254px;
+	overflow: hidden;
+}
+.carousel-imgs{
+	width: 1416px;
+	height: 224px;
+}
+.carousel-imgs img{
+	width: 472px;
+	height: 224px;
+	float: left;
+}
+.carousel-btns{
+	height: 30px;
+	line-height: 30px;
+	float: right;
+}
+.carousel-btns li{
+	width: 10px;
+	height: 10px;
+	background: #f09388;
+	display: inline-block;
+	margin-right: 5px;
+}
+.carousel-btns .selected{
+	background: #e5412d;
+}
+
+
+
+
+
+
+
+/*轮播图组件 结束*/
