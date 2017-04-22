@@ -1,0 +1,267 @@
+/*banner 开始*/
+#banner{
+	height: 356px;
+	background: #1f2123;
+	/*margin-top: 88px;*/
+	/*border-top: 88px solid transparent;*/
+	padding-top: 88px;
+}
+#banner .banner-content{
+	width: 420px;
+	height: 280px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -140px;
+	text-align: center;
+}
+#banner .banner-content h1{
+	color: #fff;
+	height: 46px;
+	line-height: 46px;
+	font-size: 40px;
+}
+#banner .banner-content p{
+	color: #fff;
+	line-height: 25px;
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#banner .banner-content a{
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	margin-right: 50px;
+}
+#banner .banner-content .check-out{
+	background: #e5412d;
+}
+#banner .banner-content .buy-now{
+	background: #e7e7e7;
+	color: #333333;
+	margin-right: 0;
+}
+/*#banner-bg{
+	height: 356px;
+	background: url(../img/front-home-banner.jpg) no-repeat;
+}*/
+/*banner 结束*/
+/*awesome 开始*/
+#awesome{
+	height: 100px;
+	background: #f4f4f4;
+	border-bottom: 1px solid #efefef;
+	text-align: center;
+	line-height: 100px;
+	text-shadow: 0 1px 0 #fff;
+}
+#awesome span{
+	margin-right: 5px;
+}
+#text-primary{
+	font-size: 26px;
+	color: #e5412d;
+	font-weight: bold;
+}
+#text-features{
+	color: #4d4d4d;
+	font-size: 26px;
+}
+#hidden-phone{
+	color: #ccc;
+	font-style: italic;
+}
+/*awesome 结束*/
+#slogan {
+	background: #f4f4f4; 
+	border: 1px	solid #efefef;
+	padding: 15px;
+	margin: 15px auto;
+	color: #7c7c7c;
+}
+#features{
+	overflow: hidden;
+}
+#features li{
+	width:197px;
+	/*height: 225px;*/
+	padding: 15px;
+	margin-right: 15px;
+	border: 1px solid #efefef;
+	float: left;
+	text-align: center;
+}
+#features .selected{
+	background: #e5412d;
+	color: #fff;
+}
+#features .selected h3,#features .selected p,#features .selected a,#features .selected span{
+	color: #fff;
+}	
+#features li:last-child{
+	width:196px;
+	margin-right: 0px;
+	float:right;
+}
+#features .glyphicon{
+	font-size: 70px;
+	color: #e2e2e2;
+}
+#features h3{
+	font-family: 'Roboto Slab',sans-serif;
+	font-size: 17.5px;
+	margin:10px 0 10px;
+	font-weight: 400;
+	color:#4d4d4d;
+}
+#features p{
+	color:#7c7c7c;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+#features a{
+	color: #e5412d;
+}
+#follow-us{
+	height: 137px;
+	border: 1px soild #efefef;
+	margin-top: 15px;
+	padding: 15px;
+	background: #f4f4f4;
+	text-align: center;	
+}
+#follow-us h3{
+	font-size:21px;
+	font-weight: 200;
+	line-height: 30px;
+	color: #7c7c7c;
+	margin-bottom: 20px;
+}
+#follow-list li{
+	display: inline-block;
+	margin-right: 20px;
+	line-height: 20px;
+}
+#follow-list .icon{
+	font-size: 55px;
+}
+#follow-list a{
+	font-size: 12px;
+	color: #444444;
+}
+#follow-list .selected a{
+	color:#e5412d;
+}
+#follow-list .selected .icon{
+	color:#e5412d;
+}
+
+/*testimonials 开始*/
+#testimonials{
+    font-size: 24.5px;
+	color: #7c7c7c;
+	font-family: 'Roboto Slab', sans-serif;
+	font-weight: 400;
+	padding: 15px 0 15px;
+}
+#testimonials .glyphicon{
+	padding-right: 10px;
+}
+/*testimonials 结束*/
+/*user-list 开始*/
+#user-list{
+	overflow: hidden;
+}
+#user-list .user{
+	width: 440px;
+	height: 73px;
+    border: 1px solid #efefef;
+    /*float:left;*/
+    padding: 15px;
+    color: #7c7c7c;
+    font-family: 'Roboto', sans-serif;
+}
+/*#user-list .user:last-child{
+	float: right;
+}*/
+#user-list .user:nth-child(2n+1){
+	float: left;
+}
+#user-list .user:nth-child(2n){
+	float: right;
+}
+#user-list .glyphicon{
+	width: 50px;
+	height: 50px;
+	color: #e2e2e2;
+    font-size: 50px;
+	float: left;
+	margin: 0 25px 15px 0;
+}
+#user-list .by{
+	font-weight: bold;
+	margin-top: 10px;
+}
+#user-list .by a{
+	color: #e5412d;
+}
+#user-list .by a:hover{
+	color: #000;
+}
+/*user-list 结束*/
+/*bner 开始*/
+#bner{
+	height: 45px;
+	margin: 15px auto;
+	padding: 15px;
+	border: 1px solid #efefef;
+    background: #f4f4f4;
+    width: 930px;
+}
+#bner .bner-left{
+	width: 600px;
+	text-align: center;
+	float: left;
+}
+#bner .bner-left h2{
+	font-size: 26px;
+	font-weight: 400;
+    color: #4d4d4d;
+}
+#bner .bner-left strong{
+	color: #e5412d
+}
+#bner .bner-left p{
+	font-size: 13px;
+    color: #7c7c7c;
+}
+#bner .bner-right{
+	width: 300px;
+	height: 42px;
+	display: inline-block;
+
+	background: #e5412d;
+    border-color: #e5412d;
+    color: #ffffff;
+    position: relative;
+
+}
+#bner .bner-right span{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 24px;
+    float: left;
+    position: relative;
+    left: 15px;
+    top: 9px;
+}
+#bner .bner-right p{
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 600;
+    margin: 5px 0 0 50px;
+}
+#bner .bner-right p:last-child{
+	margin-top:0px;
+}
+/*bner 结束*/

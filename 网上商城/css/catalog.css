@@ -1,0 +1,177 @@
+/*title 开始*/
+#title{
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+#title .glyphicon{
+	color: #575655;
+	font-size: 27px;
+}
+/*title 结束*/
+/*carousel 开始*/
+.carousel{
+	width: 960px;
+	position: relative;
+}
+.carousel-imgs{
+	width: 2880px;
+	position: relative;
+	left: 0;
+	transition: left 1s ease;
+}
+.carousel-item{
+	width: 960px;
+	height: 235px;
+	float: left;
+}
+.carousel-txt{
+	float: left;
+	width: 361px;
+	height: 194px;
+	padding: 15px;
+	text-align: center;
+	background: #f4f4f4;
+}
+.carousel-txt h3{
+	font-size: 26px;
+	color: #4d4d4d;
+	font-weight: 400;
+}
+.carousel-txt p{
+	color: #7c7c7c;
+	line-height: 20px;
+}
+.carousel-txt h5{
+	height: 48px;
+	color: #7c7c7c;
+}
+.carousel-txt a{
+	display: block;
+	background: #424242;
+	color: #ffffff;
+	font-size: 17.5px;
+	height: 44px;
+	line-height: 44px;
+}
+.carousel-imgs img{
+	float:right;
+	width: 554px;
+}
+/*carousel 结束*/
+/*main 开始*/
+#main{
+	margin: 15px 0 30px;
+}
+
+/*product-list 开始*/
+#product-list{
+	float: right;
+}
+#product-list li{
+	background: #f4f4f4;
+	margin-bottom: 15px;
+	position: relative;
+	overflow: hidden;
+}
+#product-list .p-price{
+	position: absolute;
+	right: -30px;
+    top: 13px;
+	color: #fff;
+	background: #609450;
+	width: 120px;
+	height: 34px;
+	line-height: 34px;
+	font-weight: bold;
+	text-align: center;
+	-webkit-transform:rotate(45deg);
+}
+#product-list .fall-list{
+	width: 222px;
+	float: left;
+	margin-right: 25px;
+}
+#product-list .fall-list:last-child{
+	margin-right: 0;
+}
+#product-list .product-img{
+	width: 222px;
+}
+#product-list .product-img img{
+	width: 100%;
+}
+#product-list .product-box{
+	padding: 15px;
+	overflow: hidden;
+}
+#product-list .product-box h3{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+#product-list .product-box p{
+	line-height: normal;
+	margin-bottom: 5px;
+}
+#product-list .glyphicon-heart{
+	background: #424242;
+	color: #fff;
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	float: left;
+	position: relative;
+}
+#product-list .glyphicon-heart:hover .wash{
+	display: block;
+}
+#product-list .wash{
+	background: #e86555;
+	color: #fff;
+	padding: 5px;
+	line-height: 20px;
+	position: absolute;
+	left:0;
+	top:-35px;
+	display: none;
+}
+#product-list .wash:after{
+	content: '';
+	border: 5px solid transparent;
+	border-top:5px solid #e86555;
+	width: 0;
+	height: 0;
+	position: absolute;
+	bottom: -9px;
+	left:50%;
+	margin-left: -5px;
+}
+#product-list .glyphicon-shopping-cart{
+	display: inline-block;
+	color: #fff;
+	padding: 5px 12px;
+	float: left;
+	font-size: 14px;
+	background:#609450;
+	height: 20px;
+	line-height: 20px;
+}
+#product-list .glyphicon-shopping-cart span{
+	margin-left: 3px;
+}
+
+#product-list .glyphicon-eye-open{
+    background: #e7e7e7;
+    color: #000;
+    width: 39px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+    float: right;
+}
+
+/*product-list 结束*/
+/*main 结束*/

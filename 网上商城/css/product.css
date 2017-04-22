@@ -1,0 +1,274 @@
+/*title 开始*/
+#title{
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+#title .glyphicon{
+    color: #575655;
+    font-size: 27px;
+}
+/*title 结束*/
+/*center 开始*/
+#center{
+	margin-bottom: 40px;
+}
+/*center 结束*/
+/*main 开始*/
+#main{
+	margin-bottom: 15px;
+}
+#main-left{
+	float: left;
+}
+#main-right{
+	float: right;
+	width: 635px;
+}
+/*main-left 开始*/
+#main-left{
+	margin-right: 5px;
+	width: 312px;
+}
+#main-left .big-img-box{
+    display: block;
+    padding: 3px;
+    border: 1px solid #efefef;
+}
+#main-left .big-img-box .big-img{
+	width: 302px;
+	height: 452px;
+}
+/*hr 开始*/
+#main-left .hr{
+	height: 2px;
+	background: #f4f4f4;
+	margin: 30px auto;
+	position: relative;	
+	text-align: center;
+}
+#main-left .hr .glyphicon{
+	font-size: 37px;
+	position: absolute;
+	top: 50%;
+	left: 130px;
+	margin-top: -15px;
+	padding: 0 15px;
+	background: #fff;
+}
+/*hr 结束*/
+#main-left ul{
+	margin-top: 40px;
+}
+#main-left ul li{
+	float: left;
+	margin-right: 5px;
+}
+#main-left ul li:last-child{
+	float: right;
+	margin-right: 0;
+}
+#main-left .small-img-box{
+	padding: 5px;
+    border: 1px solid #efefef;
+    display: inline-block;
+}
+#main-left .small-img{
+	width: 62px;
+	height: 93px;
+}
+/*main-left 结束*/
+
+/*main-right 开始*/
+/*right-top 开始*/
+#main-right .detail{
+	float: left;
+	width: 366px;
+}
+#main-right .detail .p-body{
+	margin: 15px 0;
+	background: #f4f4f4;
+    border: 1px solid #efefef;
+    padding: 15px;
+}
+#main-right .detail .important-note{
+	padding: 15px;
+	border: 1px solid #efefef;
+	color: #fff;
+	background: #bbbbbb;
+	margin-top: 5px;
+}
+#main-right .add{
+	width: 227px;
+	float: right;
+	border: 1px solid #efefef;
+    padding: 15px;
+    position: relative;
+    margin: 0 0 15px 10px;
+    overflow: hidden;
+}
+#main-right .add .off{
+    position: absolute;
+    right: -30px;
+    top: 13px;
+    color: #fff;
+    background: #609450;
+    width: 120px;
+    height: 34px;
+    line-height: 34px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+}
+#main-right .add h4{
+	font-size: 35px;
+    line-height: 40px;
+    font-weight: normal;
+}
+#main-right .add .price{
+	color: #d7d7d7;
+}
+#main-right .add .btn-title{
+	margin-top: 20px;
+	font-weight: 600;
+}
+#select-size{
+	padding: 2px 10px;
+    background: #e8e8e8;
+    width: 225px;
+    margin: 5px 0;
+}
+#select-size option{
+	background: #fff;
+}
+#main-right input{
+    border: 1px solid #efefef;
+    color: #A7A7A7;
+    padding: 4px 6px;
+    margin: 10px 0;
+    width: 210px;
+}
+#main-right .butten{
+    padding: 10px;
+    font-weight: 600;
+    background: #609450;
+    border-color: #609450;
+    color: #ffffff;
+    width: 203px;
+    display: block;
+    text-align: left;
+    font-size: 19px;
+    margin-top: 10px;
+}
+#main-right .butten .glyphicon{
+	margin-right: 10px;
+}
+#main-right .share{
+	float: right;
+	margin: 10px 0;
+}
+#main-right .share .txt{
+    vertical-align: middle;
+}
+#main-right .share .icon{
+	font-size: 28px;
+	vertical-align: middle;
+    color: #64625f;
+}
+/*right-top 结束*/
+/*hr 开始*/
+#main-right .hr{
+	height: 2px;
+	background: #f4f4f4;
+	margin: 30px auto;
+	position: relative;	
+	text-align: center;
+}
+#main-right .hr .glyphicon{
+	font-size: 37px;
+	position: absolute;
+	top: 50%;
+	left: 300px;
+	margin-top: -15px;
+	padding: 0 15px;
+	background: #fff;
+}
+/*hr 结束*/
+/*right-bottom 开始*/
+#main-right .right-bottom{
+	border:1px solid #efefef;
+}
+#main-right .right-bottom .btn-box{
+	border-bottom: 1px solid #efefef;
+	height: 35px;
+}  
+#main-right .right-bottom .btn-box li{
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	border-right: 1px solid #efefef;
+	display: block;
+}
+#main-right .right-bottom .btn-box li span{
+	margin-right: 5px;
+	font-size: 15px;
+}
+#main-right .right-bottom ul .active{
+	color: #505050;
+	height: 36px;
+	background: #fff;
+}
+#main-right .content-box>div{
+	display: none;
+	padding: 15px;
+}
+#main-right .content-box .active{
+	display: block;
+}
+
+#main-right .one-customer{
+	margin-bottom: 15px;
+}
+#main-right .one-customer:last-child{
+	margin-bottom: 0;
+}
+#main-right .one-customer .glyphicon-fire{
+	font-size: 5em;
+	float: right;
+	margin-left: 5px;
+	color: #d7d7d7;
+}
+#main-right .one-customer .star{
+	color: #d7d7d7;
+	margin: 5px 0;
+}
+#main-right .one-customer .glyphicon-star{
+	color: #e5412d;
+	margin-right: 3px;
+}
+#main-right .one-customer .glyphicon-star-empty{
+	margin-right: 8px;
+}
+#main-right .one-customer .text{
+	line-height: 20px;
+}
+
+
+/*right-bottom 结束*/
+/*main-right 结束*/
+/*main 结束*/
+
+
+
+
+
+
+
+
+
+
+/*title 开始*/
+
+/*title 结束*/
