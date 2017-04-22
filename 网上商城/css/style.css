@@ -130,9 +130,24 @@ body{
 	padding: 0 10px;
 	position: relative;
 }
-#nav .nav-menu > li:hover .sub-menu{
+#nav .nav-menu > li.menu-btn:hover .sub-menu{
 	display: block;
+	animation: show 0.7s ease forwards;
 }
+@keyframes show{
+	0%{
+
+	}
+	100%{
+		top: 56px;
+	}
+}
+#nav .nav-menu .sub-menu{
+	background: #fff;
+}
+/*#nav .nav-menu > li:hover .sub-menu{
+	display: block;
+}*/
 #nav .nav-menu a{
 	font-size: 14px;
 	color: #7c7c7c;
@@ -144,7 +159,7 @@ body{
 #nav .sub-menu{
 	width: 150px;
 	position: absolute;
-	top: 56px;
+	top: 120px;
 	border: 1px solid #bdbdbd;
 	border-top: 0;
 	display: none;
