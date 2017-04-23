@@ -132,7 +132,7 @@ body{
 }
 #nav .nav-menu > li.menu-btn:hover .sub-menu{
 	display: block;
-	animation: show 0.7s ease forwards;
+	animation: show 0.2s ease forwards;
 }
 @keyframes show{
 	0%{

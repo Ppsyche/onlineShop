@@ -1,3 +1,4 @@
+//选项卡
 var oTabBox = document.getElementById('right-bottom'),
 	aLi = oTabBox.getElementsByTagName('li'),
 	aDiv = getClass('js-box',oTabBox);

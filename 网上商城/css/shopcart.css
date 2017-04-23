@@ -72,7 +72,7 @@ th .checkbox{
 	height: 15px;
 	border-radius:7px;
 }
-tbody tr:hover{
+tbody tr:hover,tbody tr.selected{
 	background: #bdbdbd;
 }
 tbody th{
