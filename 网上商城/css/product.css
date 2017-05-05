@@ -263,12 +263,13 @@
 /*弹层 开始*/
 .dialog-box{
 	background: rgba(0,0,0,0.6);
+	/*position: absolute;*/
 	position: fixed;
-	left: 0;
-	top: 0;
+	left:0;
+	top:0;
 	right: 0;
 	bottom: 0;
-	z-index: 999;
+	z-index:999;
 	display: none;
 }
 .content{
@@ -276,29 +277,41 @@
 	height: 498px;
 	background: #fff;
 	position: absolute;
-	left: 50%;
-	top: 50%;
+	left:50%;
+	/*top:50%;*/
+	top:-249px;
 	margin-left: -212px;
 	margin-top: -249px;
+	
+}
+
+@keyframes show{
+	100%{
+		top:50%;
+	}
 }
 .dialog-title{
 	height: 30px;
-	background: #f4f4f4;
+	background: #f4f4ff;
 	border-bottom: 1px solid #efefef;
 	text-align: right;
 	line-height: 30px;
 }
 .dialog-close{
-	margin-right: 8px;
+	margin-right:8px;
 	cursor: pointer;
 }
 .dialog-body{
 	text-align: center;
+	height: 406px;
 }
 .dialog-body img{
 	width: 265px;
 	height: 395px;
-	margin: 10px 0;
+	margin:10px 0;
+	position: absolute;
+	left:80px;
+	top:25px;
 }
 .dialog-prev,.dialog-next{
 	width: 40px;
@@ -308,23 +321,22 @@
 	text-align: center;
 	line-height: 40px;
 	font-size: 30px;
-	color: #fff;
+	color:#fff;
 	position: absolute;
-	top: 50%;
-	margin-top: -20px;
+	top:50%;
+	margin-top:-20px;
 }
 .dialog-prev{
-	left: 95px;
+	left:95px;
 }
 .dialog-next{
-	right: 95px;
+	right:95px;
 }
 .dialog-btns{
 	height: 40px;
-	background: #f4f4f4;
+	background: #f4f4ff;
 	border-top: 1px solid #efefef;
 	padding: 10px 15px;
-	text-align: center;
 }
 .dialog-btns span{
 	height: 30px;
@@ -349,6 +361,14 @@
 	color:#000;
 	border:1px solid #cccccc;
 }
+
+@keyframes hide{
+	100%{
+		opacity: 0;
+	}
+}
+
+
 
 
 /*弹层 结束*/
