@@ -132,11 +132,11 @@ body{
 }
 #nav .nav-menu > li.menu-btn:hover .sub-menu{
 	display: block;
-	animation: show 0.2s ease forwards;
+	animation: showul 0.2s ease forwards;
 }
-@keyframes show{
+@keyframes showul{
 	0%{
-
+		
 	}
 	100%{
 		top: 56px;
