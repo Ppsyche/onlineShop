@@ -1,4 +1,9 @@
 # onlineShop
 用HTML CSS JS 仿写的商城网站，包括首页，详情页，购物车，博客页等7页
 
-<a href="https://psychee.github.io/onlineShop/%E7%BD%91%E4%B8%8A%E5%95%86%E5%9F%8E/index.html">首页</a>
+[首页](https://psychee.github.io/onlineShop/index.html)
+[关于](https://psychee.github.io/onlineShop/about.html)
+[商品类别](https://psychee.github.io/onlineShop/catalog.html)
+[商品详情](https://psychee.github.io/onlineShop/product.html)
+[购物车](https://psychee.github.io/onlineShop/shopcart.html)
+[博客](https://psychee.github.io/onlineShop/posts.html)
